@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia de la Electrónica</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Interno -->
+  <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    h1, h2 {
+        color: #0d6efd;
+    }
+
+    h3 {
+        color: #212529;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    /* Tarjetas de línea de tiempo */
+    .timeline-card {
+        border-left: 4px solid #0d6efd;
+        transition: transform 0.2s;
+    }
+
+    .timeline-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Untitled-1.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="Untitled-1.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="xd.html">¿Qué es?</a></li>
+          <li class="nav-item"><a class="nav-link" href="Empresas que la usan.html">Empresas</a></li>
+          <li class="nav-item"><a class="nav-link" href="utilidad.html">Utilidad</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido -->
+  <div class="container mt-5">
+    <h1 class="mb-4 text-center">Historia de la Electrónica</h1>
+    <p class="lead text-center">Desde los primeros descubrimientos de electricidad hasta la era digital, la electrónica ha transformado nuestra forma de vivir y comunicarnos.</p>
+
+    <!-- Línea de tiempo -->
+    <h2 class="mt-5 mb-3">Línea de Tiempo</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card timeline-card">
+          <div class="card-body">
+            <h5 class="card-title">1837</h5>
+            <p class="card-text">Invención del telégrafo por Samuel Morse, primer sistema de comunicación a distancia.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card timeline-card">
+          <div class="card-body">
+            <h5 class="card-title">1876</h5>
+            <p class="card-text">Alexander Graham Bell inventa el teléfono, revolucionando la comunicación humana.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card timeline-card">
+          <div class="card-body">
+            <h5 class="card-title">1904</h5>
+            <p class="card-text">John Ambrose Fleming crea el diodo termoiónico, primer dispositivo electrónico controlable.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card timeline-card">
+          <div class="card-body">
+            <h5 class="card-title">1947</h5>
+            <p class="card-text">Invención del transistor por Shockley, Bardeen y Brattain, iniciando la miniaturización electrónica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desarrollo por épocas -->
+    <h2 class="mt-5 mb-3">Desarrollo por Épocas</h2>
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header bg-primary text-white">Siglo XIX</div>
+          <div class="card-body">
+            <p>Exploración de electricidad y magnetismo. Inventos clave: telégrafo y teléfono.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header bg-success text-white">Principios del Siglo XX</div>
+          <div class="card-body">
+            <p>Creación de diodos y triodos. Las válvulas de vacío dominaron radios, televisores y primeros computadores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header bg-warning text-dark">1947 – Transistor</div>
+          <div class="card-body">
+            <p>Reemplazo de las válvulas por transistores más pequeños, duraderos y eficientes. Radio portátil y computadoras modernas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header bg-danger text-white">Años 50 – Circuitos Integrados</div>
+          <div class="card-body">
+            <p>Jack Kilby y Robert Noyce concentran miles de transistores en un chip, iniciando la era digital.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Curiosidades -->
+    <h2 class="mt-5 mb-3">Curiosidades</h2>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="alert alert-info">
+          <strong>Dato 1:</strong> El primer transistor era tan pequeño que podía caber en la punta de un dedo.
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="alert alert-warning">
+          <strong>Dato 2:</strong> Antes de los transistores, los computadores ocupaban habitaciones completas.
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="alert alert-success">
+          <strong>Dato 3:</strong> La electrónica moderna ha permitido la creación de dispositivos vestibles como relojes inteligentes.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

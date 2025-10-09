@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Interno -->
+  <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    h1, h2 {
+        color: #0d6efd;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 5px #0d6efd;
+        border-color: #0d6efd;
+    }
+
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Untitled-1.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Untitled-1.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="xd.html">¿Qué es?</a></li>
+          <li class="nav-item"><a class="nav-link" href="Primera Pagina de info.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="Empresas que la usan.html">Empresas</a></li>
+          <li class="nav-item"><a class="nav-link active" href="Untitled-1.html">Utilidad</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido -->
+  <div class="container mt-5">
+    <h1 class="mb-4 text-center">Contacto</h1>
+    <p class="lead text-center">Si tienes preguntas, sugerencias o quieres más información sobre la electrónica, completa el formulario y nos pondremos en contacto contigo.</p>
+
+    <!-- Formulario de contacto -->
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-8">
+        <div class="card p-4 shadow-sm">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="asunto" class="form-label">Asunto</label>
+              <input type="text" class="form-control" id="asunto" placeholder="Tema del mensaje" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Información adicional -->
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h5>Correo electrónico</h5>
+          <p>alanemiliogarciamejia@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h5>Teléfono</h5>
+          <p>+503 7665 9243</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
